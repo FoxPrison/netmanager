@@ -1,0 +1,98 @@
+/* styles.css */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  
+  header {
+    background-color: #0073e6;
+    color: white;
+    padding: 1.5rem;
+    text-align: center;
+    font-size: 1.5rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .container {
+    display: flex;
+    min-height: calc(100vh - 60px);
+  }
+  
+  .side-menu {
+    width: 250px;
+    background-color: #004c99;
+    padding: 1rem 0;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .side-menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .side-menu ul li {
+    margin: 0;
+    text-align: center;
+  }
+  
+  .side-menu ul li a {
+    display: block;
+    padding: 1rem;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s;
+  }
+  
+  .side-menu ul li a:hover {
+    background-color: #005bb5;
+  }
+  
+  main {
+    flex: 1;
+    padding: 2rem;
+    background-color: #ffffff;
+    border-radius: 10px;
+    margin: 2rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #004c99;
+    color: white;
+  }
+  
+  .card {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card h3 {
+    margin-top: 0;
+    color: #0073e6;
+  }
+  
+  button {
+    display: inline-block;
+    padding: 0.8rem 1.2rem;
+    background-color: #0073e6;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #005bb5;
+  }
+  
